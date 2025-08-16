@@ -1,11 +1,11 @@
-# 🔫 Real-Time Weapon Detection App
+# Real-Time Weapon Detection App
 
 A real-time Computer Vision application built with **Streamlit** and **YOLOv8** that detects weapons in CCTV footage and sends instant alerts via **Telegram**.  
 Designed to simulate an emergency response system that can notify operators when armed individuals are detected.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project leverages **deep learning (YOLOv8)** for weapon detection in real-time from different video sources (uploaded files, webcam, or RTSP streams).  
 
@@ -18,7 +18,7 @@ This prototype demonstrates how AI-based video surveillance can support security
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Multiple video sources**: Upload MP4 files, use live webcam feed, or connect to RTSP streams.  
 - **Real-time detection**: Uses YOLOv8 for accurate and fast predictions.  
@@ -31,12 +31,9 @@ This prototype demonstrates how AI-based video surveillance can support security
 
 ---
 
-## 📂 Data Sources
+## Data Sources
 
-The model was trained on a curated dataset of **firearm and weapon images** collected from open-source datasets and annotated manually.  
-Classes:  
-- `Weapon` (guns, knives, etc., depending on dataset composition).  
-
+The model was trained on multiple datasets collected from kaggle, roboflow and using the Youtube-GDD dataset.
 ---
 
 ## 📊 Training Results

@@ -39,7 +39,7 @@ The model was trained on multiple datasets collected from kaggle, roboflow and u
 ## Training Results
 
 Model: **YOLOv8s** (Ultralytics)
-Training data: **21k+ images**
+Training data: **21K+ images**  
 Epochs: **30**  
 Training time: **~5.1 hours**  
 GPU: **NVIDIA GeForce RTX 3050 Laptop GPU (4GB VRAM)**  

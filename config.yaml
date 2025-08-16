@@ -1,0 +1,7 @@
+path: 'C:/Users/Asteroid/Documents/weapon-detection/data'
+train: images/train
+val: images/val
+
+nc: 1
+names:
+  0: gun

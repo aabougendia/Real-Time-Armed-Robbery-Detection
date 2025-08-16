@@ -4,8 +4,8 @@ from ultralytics import YOLO
 import tempfile
 import requests
 
-telegram_bot_token = "7472762937:AAH9Z7PWkJhZuDOvRVf9WPnF3YnrNKXKpwo"
-chat_id = 1379730969 # sends alerts to my phone for testing
+telegram_bot_token = ""
+chat_id = 0 # sends alerts to my phone for testing
 
 def send_telegram_message(message):
 
@@ -193,5 +193,6 @@ if video_path is not None:
             # Convert BGR to RGB for Streamlit
             rgb_frame = cv2.cvtColor(annotated_frame, cv2.COLOR_BGR2RGB)
             video_placeholder.image(rgb_frame, channels="RGB")
+
 
         cap.release()

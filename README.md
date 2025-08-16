@@ -1,4 +1,4 @@
-# Real-Time Weapon Detection App
+# Real-Time Armed Robbery Detection App
 
 A real-time Computer Vision application built with **Streamlit** and **YOLOv8** that detects weapons in CCTV footage and sends instant alerts via **Telegram**.  
 Designed to simulate an emergency response system that can notify operators when armed individuals are detected.

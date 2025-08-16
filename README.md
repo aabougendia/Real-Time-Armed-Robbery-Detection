@@ -36,9 +36,9 @@ This prototype demonstrates how AI-based video surveillance can support security
 The model was trained on multiple datasets collected from kaggle, roboflow and using the Youtube-GDD dataset.
 ---
 
-## 📊 Training Results
+## Training Results
 
-Model: **YOLOv8** (Ultralytics)  
+Model: **YOLOv8s** (Ultralytics)  
 Epochs: **30**  
 Training time: **~5.1 hours**  
 GPU: **NVIDIA GeForce RTX 3050 Laptop GPU (4GB VRAM)**  
@@ -52,7 +52,7 @@ Validation results (on test set of 2074 images with 1886 instances):
 | mAP@50        | **0.823** |
 | mAP@50-95     | **0.604** |
 
-⚡ **Interpretation:**  
+**Interpretation:**  
 - The model achieves **82.3% mAP@50**, which means it’s highly reliable in detecting weapons at an IoU of 0.5.  
 - **60.4% mAP@50-95** shows it maintains decent performance across stricter IoU thresholds.  
 - With high precision, the model produces fewer false alarms, making it suitable for real-time surveillance.  
